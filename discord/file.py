@@ -29,7 +29,7 @@ import io
 
 class File:
     """A parameter object used for :meth:`abc.Messageable.send`
-    for sending file objects.
+    for sending file objects. Usable only once. Create a new one for each message if you would like to send it multiple times. 
 
     Attributes
     -----------
